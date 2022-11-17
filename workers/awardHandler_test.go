@@ -68,7 +68,7 @@ func TestProcess(t *testing.T) {
 			Process(tt.args.eventsList, tt.args.targetDate, tt.args.precision)
 		})
 	}
-}
+} // Path: workers/awardHandler_test.go
 
 func TestRoundFloat(t *testing.T) {
 	type args struct {
